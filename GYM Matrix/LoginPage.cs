@@ -15,11 +15,13 @@ namespace GYM_Matrix
         public LoginPage()
         {
             InitializeComponent();
+            MessageBox.Show("Updated");
         }
 
         private void CloseApp_Click(object sender, EventArgs e)
         {
             Application.Exit();
+            
         }
 
         private void MinimizeApp_Click(object sender, EventArgs e)
