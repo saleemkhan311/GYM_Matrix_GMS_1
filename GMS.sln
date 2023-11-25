@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GYM Matrix", "GYM Matrix\GYM Matrix.csproj", "{BD801603-5C0B-498D-ADCF-3E26E7516490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gym Management System", "GYM Matrix\Gym Management System.csproj", "{BD801603-5C0B-498D-ADCF-3E26E7516490}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GYM Matrix GSM", "Storage Setup\Storage Setup.vdproj", "{E2D28019-F9F8-45AD-B0F9-2F22C63BFB2F}"
 EndProject

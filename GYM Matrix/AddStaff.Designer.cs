@@ -1,5 +1,5 @@
 ﻿
-namespace GYM_Matrix
+namespace GMS
 {
     partial class AddStaff
     {
@@ -66,7 +66,6 @@ namespace GYM_Matrix
             this.label18 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -79,7 +78,6 @@ namespace GYM_Matrix
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeApp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseApp)).BeginInit();
             this.SuspendLayout();
@@ -192,7 +190,7 @@ namespace GYM_Matrix
             // ProfileBox
             // 
             this.ProfileBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ProfileBox.Image = global::GYM_Matrix.Properties.Resources.user;
+            this.ProfileBox.Image = global::GMS.Properties.Resources.user;
             this.ProfileBox.InitialImage = ((System.Drawing.Image)(resources.GetObject("ProfileBox.InitialImage")));
             this.ProfileBox.Location = new System.Drawing.Point(25, 146);
             this.ProfileBox.Margin = new System.Windows.Forms.Padding(4);
@@ -351,7 +349,7 @@ namespace GYM_Matrix
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::GYM_Matrix.Properties.Resources.refresh;
+            this.pictureBox2.Image = global::GMS.Properties.Resources.refresh;
             this.pictureBox2.Location = new System.Drawing.Point(90, 387);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(31, 33);
@@ -449,7 +447,6 @@ namespace GYM_Matrix
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.label20);
             this.panel1.Controls.Add(this.label26);
             this.panel1.Controls.Add(this.label23);
@@ -511,18 +508,6 @@ namespace GYM_Matrix
             this.label19.TabIndex = 64;
             this.label19.Text = "Renew Member";
             this.label19.Click += new System.EventHandler(this.RenewMember);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(1, 4);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(213, 202);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 8;
-            this.pictureBox7.TabStop = false;
             // 
             // label20
             // 
@@ -596,7 +581,7 @@ namespace GYM_Matrix
             // 
             // MinimizeApp
             // 
-            this.MinimizeApp.Image = global::GYM_Matrix.Properties.Resources.Minimize;
+            this.MinimizeApp.Image = global::GMS.Properties.Resources.Minimize;
             this.MinimizeApp.Location = new System.Drawing.Point(1050, 5);
             this.MinimizeApp.Margin = new System.Windows.Forms.Padding(4);
             this.MinimizeApp.Name = "MinimizeApp";
@@ -608,7 +593,7 @@ namespace GYM_Matrix
             // 
             // CloseApp
             // 
-            this.CloseApp.Image = global::GYM_Matrix.Properties.Resources.Close;
+            this.CloseApp.Image = global::GMS.Properties.Resources.Close;
             this.CloseApp.Location = new System.Drawing.Point(1098, 5);
             this.CloseApp.Margin = new System.Windows.Forms.Padding(4);
             this.CloseApp.Name = "CloseApp";
@@ -643,7 +628,6 @@ namespace GYM_Matrix
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeApp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseApp)).EndInit();
             this.ResumeLayout(false);
@@ -687,7 +671,6 @@ namespace GYM_Matrix
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label23;

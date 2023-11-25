@@ -1,5 +1,5 @@
 ﻿
-namespace GYM_Matrix
+namespace GMS
 {
     partial class TotalIncome
     {

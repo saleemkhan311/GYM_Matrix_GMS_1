@@ -7,7 +7,7 @@ using System.Drawing.Printing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GYM_Matrix
+namespace GMS
 {
     public partial class ReceiptPage : Form
     {

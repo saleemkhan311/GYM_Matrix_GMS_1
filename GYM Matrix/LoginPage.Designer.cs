@@ -1,5 +1,5 @@
 ﻿
-namespace GYM_Matrix
+namespace GMS
 {
     partial class LoginPage
     {
@@ -37,11 +37,9 @@ namespace GYM_Matrix
             this.UserNameTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.CloseApp = new System.Windows.Forms.PictureBox();
             this.MinimizeApp = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseApp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeApp)).BeginInit();
             this.SuspendLayout();
@@ -124,24 +122,9 @@ namespace GYM_Matrix
             this.label16.TabIndex = 54;
             this.label16.Text = "GYM Management System";
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(283, 2);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(192, 137);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 53;
-            this.pictureBox7.TabStop = false;
-            // 
             // CloseApp
             // 
-            this.CloseApp.Image = global::GYM_Matrix.Properties.Resources.Close;
+            this.CloseApp.Image = global::GMS.Properties.Resources.Close;
             this.CloseApp.Location = new System.Drawing.Point(725, 6);
             this.CloseApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CloseApp.Name = "CloseApp";
@@ -153,7 +136,7 @@ namespace GYM_Matrix
             // 
             // MinimizeApp
             // 
-            this.MinimizeApp.Image = global::GYM_Matrix.Properties.Resources.Minimize;
+            this.MinimizeApp.Image = global::GMS.Properties.Resources.Minimize;
             this.MinimizeApp.Location = new System.Drawing.Point(678, 6);
             this.MinimizeApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MinimizeApp.Name = "MinimizeApp";
@@ -171,7 +154,6 @@ namespace GYM_Matrix
             this.Controls.Add(this.MinimizeApp);
             this.Controls.Add(this.CloseApp);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Bebas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.Color.Transparent;
@@ -184,7 +166,6 @@ namespace GYM_Matrix
             this.Text = "GYM Matrix";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseApp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeApp)).EndInit();
             this.ResumeLayout(false);
@@ -196,7 +177,6 @@ namespace GYM_Matrix
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox CloseApp;
         private System.Windows.Forms.PictureBox MinimizeApp;
         private System.Windows.Forms.TextBox PasswordTextBox;

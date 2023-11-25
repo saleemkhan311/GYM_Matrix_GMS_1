@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GYM_Matrix
+namespace GMS
 {
     class AppSettings
     {
        
         public static string ConString()
         {
-            string connectString = "server=localhost;Database=gym_matrix;Uid=root;Pwd=''";
+            string connectString = "server=localhost;Database=gms;Uid=root;Pwd=''";
 
             return connectString;
         }

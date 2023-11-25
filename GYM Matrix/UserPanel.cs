@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
-namespace GYM_Matrix
+namespace GMS
 {
     public partial class UserPanel : Form
     {

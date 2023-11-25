@@ -1,5 +1,5 @@
 ﻿
-namespace GYM_Matrix
+namespace GMS
 {
     partial class ViewMembers
     {
@@ -43,7 +43,6 @@ namespace GYM_Matrix
             this.UserLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label22 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -89,7 +88,6 @@ namespace GYM_Matrix
             this.CloseApp = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ViewMembersTabel)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -239,7 +237,6 @@ namespace GYM_Matrix
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.label20);
             this.panel1.Controls.Add(this.label26);
             this.panel1.Controls.Add(this.label23);
@@ -259,17 +256,6 @@ namespace GYM_Matrix
             this.label16.Size = new System.Drawing.Size(192, 24);
             this.label16.TabIndex = 52;
             this.label16.Text = "GYM Management System";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(1, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(213, 202);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 8;
-            this.pictureBox7.TabStop = false;
             // 
             // label22
             // 
@@ -343,7 +329,7 @@ namespace GYM_Matrix
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::GYM_Matrix.Properties.Resources.search_3_64__1_;
+            this.pictureBox1.Image = global::GMS.Properties.Resources.search_3_64__1_;
             this.pictureBox1.Location = new System.Drawing.Point(441, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(39, 43);
@@ -384,7 +370,7 @@ namespace GYM_Matrix
             // 
             // ResetButton
             // 
-            this.ResetButton.Image = global::GYM_Matrix.Properties.Resources.refresh;
+            this.ResetButton.Image = global::GMS.Properties.Resources.refresh;
             this.ResetButton.Location = new System.Drawing.Point(370, 17);
             this.ResetButton.Name = "ResetButton";
             this.ResetButton.Size = new System.Drawing.Size(31, 33);
@@ -425,7 +411,7 @@ namespace GYM_Matrix
             // 
             // RefreshButton
             // 
-            this.RefreshButton.Image = global::GYM_Matrix.Properties.Resources.refresh;
+            this.RefreshButton.Image = global::GMS.Properties.Resources.refresh;
             this.RefreshButton.Location = new System.Drawing.Point(86, 328);
             this.RefreshButton.Name = "RefreshButton";
             this.RefreshButton.Size = new System.Drawing.Size(31, 33);
@@ -578,7 +564,7 @@ namespace GYM_Matrix
             // 
             // ProfileBox
             // 
-            this.ProfileBox.InitialImage = global::GYM_Matrix.Properties.Resources.user;
+            this.ProfileBox.InitialImage = global::GMS.Properties.Resources.user;
             this.ProfileBox.Location = new System.Drawing.Point(23, 93);
             this.ProfileBox.Name = "ProfileBox";
             this.ProfileBox.Size = new System.Drawing.Size(161, 197);
@@ -706,7 +692,7 @@ namespace GYM_Matrix
             // 
             // MinimizeApp
             // 
-            this.MinimizeApp.Image = global::GYM_Matrix.Properties.Resources.Minimize;
+            this.MinimizeApp.Image = global::GMS.Properties.Resources.Minimize;
             this.MinimizeApp.Location = new System.Drawing.Point(1063, 5);
             this.MinimizeApp.Name = "MinimizeApp";
             this.MinimizeApp.Size = new System.Drawing.Size(26, 30);
@@ -717,7 +703,7 @@ namespace GYM_Matrix
             // 
             // CloseApp
             // 
-            this.CloseApp.Image = global::GYM_Matrix.Properties.Resources.Close;
+            this.CloseApp.Image = global::GMS.Properties.Resources.Close;
             this.CloseApp.Location = new System.Drawing.Point(1106, 5);
             this.CloseApp.Name = "CloseApp";
             this.CloseApp.Size = new System.Drawing.Size(26, 30);
@@ -748,7 +734,6 @@ namespace GYM_Matrix
             ((System.ComponentModel.ISupportInitialize)(this.ViewMembersTabel)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -778,7 +763,6 @@ namespace GYM_Matrix
         private System.Windows.Forms.Label UserLabel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox IDBox;

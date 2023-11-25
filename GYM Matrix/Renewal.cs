@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 using System.Drawing;
 using System.Drawing.Printing;
 
-namespace GYM_Matrix
+namespace GMS
 {
     public partial class Renewal : Form
     {

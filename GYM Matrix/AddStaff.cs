@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 using AForge.Video;
 using AForge.Video.DirectShow;
 
-namespace GYM_Matrix
+namespace GMS
 {
     public partial class AddStaff : Form
     {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GYM_Matrix.Properties {
+namespace GMS.Properties {
     using System;
     
     

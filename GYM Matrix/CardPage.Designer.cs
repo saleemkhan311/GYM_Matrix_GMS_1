@@ -1,5 +1,5 @@
 ﻿
-namespace GYM_Matrix
+namespace GMS
 {
     partial class CardPage
     {
@@ -151,7 +151,7 @@ namespace GYM_Matrix
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::GYM_Matrix.Properties.Resources.close_icon_png_19;
+            this.pictureBox1.Image = global::GMS.Properties.Resources.close_icon_png_19;
             this.pictureBox1.Location = new System.Drawing.Point(681, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(30, 30);

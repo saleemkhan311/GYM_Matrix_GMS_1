@@ -12,7 +12,7 @@ using System.Net;
 using System.Collections.Specialized;
 using System.Web;
 
-namespace GYM_Matrix
+namespace GMS
 {
 
     public partial class Dashboard : Form
@@ -319,6 +319,11 @@ namespace GYM_Matrix
         private void MinimizeApp_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

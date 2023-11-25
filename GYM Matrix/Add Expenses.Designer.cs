@@ -1,5 +1,5 @@
 ﻿
-namespace GYM_Matrix
+namespace GMS
 {
     partial class Add_Expenses
     {
@@ -53,7 +53,6 @@ namespace GYM_Matrix
             this.label18 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -63,7 +62,6 @@ namespace GYM_Matrix
             this.CloseApp = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeApp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseApp)).BeginInit();
             this.SuspendLayout();
@@ -267,7 +265,6 @@ namespace GYM_Matrix
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.label20);
             this.panel1.Controls.Add(this.label26);
             this.panel1.Controls.Add(this.label23);
@@ -322,17 +319,6 @@ namespace GYM_Matrix
             this.label19.Size = new System.Drawing.Size(165, 34);
             this.label19.TabIndex = 64;
             this.label19.Text = "Renew Member";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(1, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(213, 202);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 8;
-            this.pictureBox7.TabStop = false;
             // 
             // label20
             // 
@@ -397,7 +383,7 @@ namespace GYM_Matrix
             // 
             // MinimizeApp
             // 
-            this.MinimizeApp.Image = global::GYM_Matrix.Properties.Resources.Minimize;
+            this.MinimizeApp.Image = global::GMS.Properties.Resources.Minimize;
             this.MinimizeApp.Location = new System.Drawing.Point(1064, 6);
             this.MinimizeApp.Name = "MinimizeApp";
             this.MinimizeApp.Size = new System.Drawing.Size(26, 30);
@@ -408,7 +394,7 @@ namespace GYM_Matrix
             // 
             // CloseApp
             // 
-            this.CloseApp.Image = global::GYM_Matrix.Properties.Resources.Close;
+            this.CloseApp.Image = global::GMS.Properties.Resources.Close;
             this.CloseApp.Location = new System.Drawing.Point(1107, 6);
             this.CloseApp.Name = "CloseApp";
             this.CloseApp.Size = new System.Drawing.Size(26, 30);
@@ -439,7 +425,6 @@ namespace GYM_Matrix
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeApp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseApp)).EndInit();
             this.ResumeLayout(false);
@@ -467,7 +452,6 @@ namespace GYM_Matrix
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label23;

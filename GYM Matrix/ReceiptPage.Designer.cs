@@ -1,5 +1,5 @@
 ﻿
-namespace GYM_Matrix
+namespace GMS
 {
     partial class ReceiptPage
     {
@@ -71,7 +71,7 @@ namespace GYM_Matrix
             // 
             // ReceiptP
             // 
-            this.ReceiptP.BackgroundImage = global::GYM_Matrix.Properties.Resources.Gym_Reciept_Print11;
+            this.ReceiptP.BackgroundImage = global::GMS.Properties.Resources.Gym_Reciept_Print11;
             this.ReceiptP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ReceiptP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ReceiptP.Controls.Add(this.tableLayoutPanel1);
@@ -280,7 +280,7 @@ namespace GYM_Matrix
             // 
             // Close_Button
             // 
-            this.Close_Button.Image = global::GYM_Matrix.Properties.Resources.close_icon_png_19;
+            this.Close_Button.Image = global::GMS.Properties.Resources.close_icon_png_19;
             this.Close_Button.Location = new System.Drawing.Point(917, 3);
             this.Close_Button.Name = "Close_Button";
             this.Close_Button.Size = new System.Drawing.Size(30, 30);

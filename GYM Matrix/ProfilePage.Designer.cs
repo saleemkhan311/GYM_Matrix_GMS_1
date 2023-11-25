@@ -1,5 +1,5 @@
 ﻿
-namespace GYM_Matrix
+namespace GMS
 {
     partial class ProfilePage
     {
@@ -190,7 +190,7 @@ namespace GYM_Matrix
             // 
             // CloseButon
             // 
-            this.CloseButon.Image = global::GYM_Matrix.Properties.Resources.close_icon_png_19;
+            this.CloseButon.Image = global::GMS.Properties.Resources.close_icon_png_19;
             this.CloseButon.Location = new System.Drawing.Point(908, 12);
             this.CloseButon.Name = "CloseButon";
             this.CloseButon.Size = new System.Drawing.Size(30, 30);

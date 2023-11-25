@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
-namespace GYM_Matrix
+namespace GMS
 {
     public partial class LoginPage : Form
     {
@@ -15,20 +10,15 @@ namespace GYM_Matrix
         public LoginPage()
         {
             InitializeComponent();
-            MessageBox.Show("Updated");
         }
-
         private void CloseApp_Click(object sender, EventArgs e)
         {
             Application.Exit();
-            
         }
-
         private void MinimizeApp_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
         }
-
         private void LoginButton_Click(object sender, EventArgs e)
         {
             username = UserNameTextBox.Text;
@@ -65,7 +55,8 @@ namespace GYM_Matrix
                             username = UserNameTextBox.Text;
                           
                             this.Hide();
-                            dash.Show();
+                            AddMemebers addMemebers = new AddMemebers();
+                            addMemebers.Show();
                             
                         }
                         else

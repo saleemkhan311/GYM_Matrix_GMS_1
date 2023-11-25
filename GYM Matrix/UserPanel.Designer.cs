@@ -1,5 +1,5 @@
 ﻿
-namespace GYM_Matrix
+namespace GMS
 {
     partial class UserPanel
     {
@@ -71,7 +71,7 @@ namespace GYM_Matrix
             // 
             // Close_Admin_Panel
             // 
-            this.Close_Admin_Panel.Image = global::GYM_Matrix.Properties.Resources.close_icon_png_19;
+            this.Close_Admin_Panel.Image = global::GMS.Properties.Resources.close_icon_png_19;
             this.Close_Admin_Panel.Location = new System.Drawing.Point(1018, 5);
             this.Close_Admin_Panel.Name = "Close_Admin_Panel";
             this.Close_Admin_Panel.Size = new System.Drawing.Size(27, 33);

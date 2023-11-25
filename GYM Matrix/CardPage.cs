@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GYM_Matrix
+namespace GMS
 {
     public partial class CardPage : Form
     {

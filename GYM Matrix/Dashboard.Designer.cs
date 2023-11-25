@@ -1,5 +1,5 @@
 ﻿
-namespace GYM_Matrix
+namespace GMS
 {
     partial class Dashboard
     {
@@ -32,7 +32,6 @@ namespace GYM_Matrix
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -75,7 +74,6 @@ namespace GYM_Matrix
             this.MinimizeApp = new System.Windows.Forms.PictureBox();
             this.CloseApp = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.Dashboard_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MemberDuesTable)).BeginInit();
@@ -95,7 +93,6 @@ namespace GYM_Matrix
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(107)))), ((int)(((byte)(91)))));
             this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.label17);
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.label19);
@@ -121,18 +118,6 @@ namespace GYM_Matrix
             this.label16.Size = new System.Drawing.Size(192, 24);
             this.label16.TabIndex = 52;
             this.label16.Text = "GYM Management System";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(2, 3);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(216, 200);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 8;
-            this.pictureBox7.TabStop = false;
             // 
             // label17
             // 
@@ -304,7 +289,7 @@ namespace GYM_Matrix
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox1.Image = global::GYM_Matrix.Properties.Resources.Group;
+            this.pictureBox1.Image = global::GMS.Properties.Resources.Group;
             this.pictureBox1.Location = new System.Drawing.Point(31, 48);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox1.Name = "pictureBox1";
@@ -367,7 +352,7 @@ namespace GYM_Matrix
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox2.Image = global::GYM_Matrix.Properties.Resources.pngtree_business_person_ai_source_file_business_staff_member_office_worker_png_image_384232_removebg_preview__1_;
+            this.pictureBox2.Image = global::GMS.Properties.Resources.pngtree_business_person_ai_source_file_business_staff_member_office_worker_png_image_384232_removebg_preview__1_;
             this.pictureBox2.Location = new System.Drawing.Point(233, 48);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox2.Name = "pictureBox2";
@@ -510,7 +495,7 @@ namespace GYM_Matrix
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox6.Image = global::GYM_Matrix.Properties.Resources.download_removebg_preview;
+            this.pictureBox6.Image = global::GMS.Properties.Resources.download_removebg_preview;
             this.pictureBox6.Location = new System.Drawing.Point(233, 480);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox6.Name = "pictureBox6";
@@ -522,7 +507,7 @@ namespace GYM_Matrix
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox5.Image = global::GYM_Matrix.Properties.Resources.free_revenue_growth_vector_4qw9z_removebg_preview;
+            this.pictureBox5.Image = global::GMS.Properties.Resources.free_revenue_growth_vector_4qw9z_removebg_preview;
             this.pictureBox5.Location = new System.Drawing.Point(233, 264);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox5.Name = "pictureBox5";
@@ -575,7 +560,7 @@ namespace GYM_Matrix
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox4.Image = global::GYM_Matrix.Properties.Resources.female1;
+            this.pictureBox4.Image = global::GMS.Properties.Resources.female1;
             this.pictureBox4.Location = new System.Drawing.Point(31, 480);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox4.Name = "pictureBox4";
@@ -601,7 +586,7 @@ namespace GYM_Matrix
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox3.Image = global::GYM_Matrix.Properties.Resources.Male;
+            this.pictureBox3.Image = global::GMS.Properties.Resources.Male;
             this.pictureBox3.Location = new System.Drawing.Point(31, 264);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox3.Name = "pictureBox3";
@@ -648,7 +633,7 @@ namespace GYM_Matrix
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Image = global::GYM_Matrix.Properties.Resources.settings;
+            this.pictureBox8.Image = global::GMS.Properties.Resources.settings;
             this.pictureBox8.Location = new System.Drawing.Point(408, 9);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox8.Name = "pictureBox8";
@@ -660,7 +645,7 @@ namespace GYM_Matrix
             // 
             // MinimizeApp
             // 
-            this.MinimizeApp.Image = global::GYM_Matrix.Properties.Resources.Minimize;
+            this.MinimizeApp.Image = global::GMS.Properties.Resources.Minimize;
             this.MinimizeApp.Location = new System.Drawing.Point(1066, 4);
             this.MinimizeApp.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.MinimizeApp.Name = "MinimizeApp";
@@ -672,7 +657,7 @@ namespace GYM_Matrix
             // 
             // CloseApp
             // 
-            this.CloseApp.Image = global::GYM_Matrix.Properties.Resources.Close;
+            this.CloseApp.Image = global::GMS.Properties.Resources.Close;
             this.CloseApp.Location = new System.Drawing.Point(1108, 4);
             this.CloseApp.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.CloseApp.Name = "CloseApp";
@@ -705,7 +690,6 @@ namespace GYM_Matrix
             this.Text = "GYM Matrix";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.Dashboard_Panel.ResumeLayout(false);
             this.Dashboard_Panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -731,7 +715,6 @@ namespace GYM_Matrix
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label UserLabel;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
