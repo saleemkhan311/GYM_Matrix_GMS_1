@@ -30,147 +30,170 @@ namespace GMS
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginPage));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.LoginButton = new System.Windows.Forms.Button();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.UserNameTextBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.CloseApp = new System.Windows.Forms.PictureBox();
-            this.MinimizeApp = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseApp)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MinimizeApp)).BeginInit();
-            this.SuspendLayout();
+            panel1 = new System.Windows.Forms.Panel();
+            LoginButton = new System.Windows.Forms.Button();
+            PasswordTextBox = new System.Windows.Forms.TextBox();
+            label2 = new System.Windows.Forms.Label();
+            UserNameTextBox = new System.Windows.Forms.TextBox();
+            label1 = new System.Windows.Forms.Label();
+            label16 = new System.Windows.Forms.Label();
+            CloseApp = new System.Windows.Forms.PictureBox();
+            MinimizeApp = new System.Windows.Forms.PictureBox();
+            label3 = new System.Windows.Forms.Label();
+            label4 = new System.Windows.Forms.Label();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)CloseApp).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)MinimizeApp).BeginInit();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(107)))), ((int)(((byte)(91)))));
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.LoginButton);
-            this.panel1.Controls.Add(this.PasswordTextBox);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.UserNameTextBox);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(126, 145);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(506, 348);
-            this.panel1.TabIndex = 0;
+            panel1.BackColor = System.Drawing.Color.FromArgb(251, 107, 91);
+            panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            panel1.Controls.Add(LoginButton);
+            panel1.Controls.Add(PasswordTextBox);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(UserNameTextBox);
+            panel1.Controls.Add(label1);
+            panel1.Location = new System.Drawing.Point(126, 164);
+            panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            panel1.Name = "panel1";
+            panel1.Size = new System.Drawing.Size(506, 348);
+            panel1.TabIndex = 0;
             // 
             // LoginButton
             // 
-            this.LoginButton.BackColor = System.Drawing.Color.Black;
-            this.LoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LoginButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(107)))), ((int)(((byte)(91)))));
-            this.LoginButton.Location = new System.Drawing.Point(216, 252);
-            this.LoginButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(94, 42);
-            this.LoginButton.TabIndex = 60;
-            this.LoginButton.Text = "Login";
-            this.LoginButton.UseVisualStyleBackColor = false;
-            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
+            LoginButton.BackColor = System.Drawing.Color.Black;
+            LoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            LoginButton.ForeColor = System.Drawing.Color.FromArgb(251, 107, 91);
+            LoginButton.Location = new System.Drawing.Point(216, 252);
+            LoginButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            LoginButton.Name = "LoginButton";
+            LoginButton.Size = new System.Drawing.Size(94, 42);
+            LoginButton.TabIndex = 60;
+            LoginButton.Text = "Login";
+            LoginButton.UseVisualStyleBackColor = false;
+            LoginButton.Click += LoginButton_Click;
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PasswordTextBox.Location = new System.Drawing.Point(240, 166);
-            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.PasswordChar = '*';
-            this.PasswordTextBox.Size = new System.Drawing.Size(165, 34);
-            this.PasswordTextBox.TabIndex = 59;
+            PasswordTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            PasswordTextBox.Location = new System.Drawing.Point(240, 166);
+            PasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            PasswordTextBox.Name = "PasswordTextBox";
+            PasswordTextBox.PasswordChar = '*';
+            PasswordTextBox.Size = new System.Drawing.Size(165, 29);
+            PasswordTextBox.TabIndex = 59;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Bebas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(94, 169);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 28);
-            this.label2.TabIndex = 58;
-            this.label2.Text = "Password:";
+            label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Bebas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label2.Location = new System.Drawing.Point(94, 169);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(81, 23);
+            label2.TabIndex = 58;
+            label2.Text = "Password:";
             // 
             // UserNameTextBox
             // 
-            this.UserNameTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.UserNameTextBox.Location = new System.Drawing.Point(240, 80);
-            this.UserNameTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.UserNameTextBox.Name = "UserNameTextBox";
-            this.UserNameTextBox.Size = new System.Drawing.Size(165, 34);
-            this.UserNameTextBox.TabIndex = 57;
+            UserNameTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            UserNameTextBox.Location = new System.Drawing.Point(240, 80);
+            UserNameTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            UserNameTextBox.Name = "UserNameTextBox";
+            UserNameTextBox.Size = new System.Drawing.Size(165, 29);
+            UserNameTextBox.TabIndex = 57;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bebas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(94, 83);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 28);
-            this.label1.TabIndex = 56;
-            this.label1.Text = "Username:";
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Bebas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label1.Location = new System.Drawing.Point(94, 83);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(80, 23);
+            label1.TabIndex = 56;
+            label1.Text = "Username:";
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Bebas", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(292, 110);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(177, 22);
-            this.label16.TabIndex = 54;
-            this.label16.Text = "GYM Management System";
+            label16.AutoSize = true;
+            label16.Font = new System.Drawing.Font("Bebas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label16.Location = new System.Drawing.Point(276, 122);
+            label16.Name = "label16";
+            label16.Size = new System.Drawing.Size(187, 29);
+            label16.TabIndex = 54;
+            label16.Text = "Management System";
             // 
             // CloseApp
             // 
-            this.CloseApp.Image = global::GMS.Properties.Resources.Close;
-            this.CloseApp.Location = new System.Drawing.Point(725, 6);
-            this.CloseApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.CloseApp.Name = "CloseApp";
-            this.CloseApp.Size = new System.Drawing.Size(30, 30);
-            this.CloseApp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.CloseApp.TabIndex = 55;
-            this.CloseApp.TabStop = false;
-            this.CloseApp.Click += new System.EventHandler(this.CloseApp_Click);
+            CloseApp.Image = (System.Drawing.Image)resources.GetObject("CloseApp.Image");
+            CloseApp.Location = new System.Drawing.Point(725, 6);
+            CloseApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            CloseApp.Name = "CloseApp";
+            CloseApp.Size = new System.Drawing.Size(30, 30);
+            CloseApp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            CloseApp.TabIndex = 55;
+            CloseApp.TabStop = false;
+            CloseApp.Click += CloseApp_Click;
             // 
             // MinimizeApp
             // 
-            this.MinimizeApp.Image = global::GMS.Properties.Resources.Minimize;
-            this.MinimizeApp.Location = new System.Drawing.Point(678, 6);
-            this.MinimizeApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MinimizeApp.Name = "MinimizeApp";
-            this.MinimizeApp.Size = new System.Drawing.Size(30, 30);
-            this.MinimizeApp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.MinimizeApp.TabIndex = 55;
-            this.MinimizeApp.TabStop = false;
-            this.MinimizeApp.Click += new System.EventHandler(this.MinimizeApp_Click);
+            MinimizeApp.Image = (System.Drawing.Image)resources.GetObject("MinimizeApp.Image");
+            MinimizeApp.Location = new System.Drawing.Point(678, 6);
+            MinimizeApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            MinimizeApp.Name = "MinimizeApp";
+            MinimizeApp.Size = new System.Drawing.Size(30, 30);
+            MinimizeApp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            MinimizeApp.TabIndex = 55;
+            MinimizeApp.TabStop = false;
+            MinimizeApp.Click += MinimizeApp_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Bebas", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label3.Location = new System.Drawing.Point(293, 80);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(159, 42);
+            label3.TabIndex = 54;
+            label3.Text = "Gymnasium";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Bebas", 47.9999924F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label4.Location = new System.Drawing.Point(291, 9);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(168, 77);
+            label4.TabIndex = 54;
+            label4.Text = "BUETK";
             // 
             // LoginPage
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(762, 540);
-            this.Controls.Add(this.MinimizeApp);
-            this.Controls.Add(this.CloseApp);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Bebas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ForeColor = System.Drawing.Color.Transparent;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.MaximizeBox = false;
-            this.Name = "LoginPage";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GYM Matrix";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CloseApp)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MinimizeApp)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            BackColor = System.Drawing.Color.DimGray;
+            ClientSize = new System.Drawing.Size(762, 540);
+            Controls.Add(MinimizeApp);
+            Controls.Add(CloseApp);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label16);
+            Controls.Add(panel1);
+            Font = new System.Drawing.Font("Bebas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            ForeColor = System.Drawing.Color.Transparent;
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            MaximizeBox = false;
+            Name = "LoginPage";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            Text = "GYM Matrix";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)CloseApp).EndInit();
+            ((System.ComponentModel.ISupportInitialize)MinimizeApp).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -184,5 +207,7 @@ namespace GMS
         private System.Windows.Forms.TextBox UserNameTextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button LoginButton;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
